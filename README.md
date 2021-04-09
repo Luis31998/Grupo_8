@@ -3,3 +3,4 @@ Caso 1: "Grupo Cero"
 Exequiel Espinoza
 Luis Valdivia
 Diego Herrera
+Caso Actividad Artistica Grupo 0
