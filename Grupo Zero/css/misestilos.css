@@ -8,6 +8,7 @@ body{
 
 }
 
+
 h1{
 
     text-align:center;
@@ -55,5 +56,29 @@ p{
 
 .link:hover{
     color: cadetblue;
+}
+
+
+.carousel-item {
+    height: 35vh;
+    min-height: 250px;
+    padding-left: 500px;
+    padding-right: 500px;
+    
+  }
+
+  .carousel-control-prev{
+      padding-left: 150px;
+  }
+  .carousel-control-next{
+      padding-right: 150px;
+  }
+
+introducir_nombre{
+    float: left;
+}
+
+enviar_solicitud{
+    float: left;
 }
 
