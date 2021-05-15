@@ -16,23 +16,48 @@
             <form action="form-group">
                 <h1>Registrate</h1>
                 <a href="index.html">Inicio</a>
-                <div class="contenedor">
+                <div class="input-contenedor">
+                    <i class="nombre-registro"></i>
+                    <label for="nombre">Nombre:</label>
+                    <input name="nombre" type="text" id="nombre" placeholder="Ingrese sus Nombre">
+                </div>
+                <div>
+                    <label for="Apellidos">Apellidos:</label>
+                    <input name="apellidos" type="text" id="apellido" placeholder="Ingrese sus Apellidos">
+                </div>
 
-                    <div class="input-contenedor">
-                        <i class="far fa-user icon"></i>
-                        <input type="text" placeholder="Nombre Completo">
+                <div class="input-contenedor">
+                    <i class="far fa-envelope icon"></i>
+                    <label for="email">Email: </label>
+                    <input name="email" type="text" value="" placeholder="nombre@email.com" autocomplete="on"
+                        required>
+                </div>
+                <div class="input-contenedor">
+                    <i class="fas fa-lock icon"></i>
+                    <label for="contraseña">Contraseña: </label>
+                    <input name="contraseña" type="password" value="" placeholder="Ingrese su Contraseña" size="30"
+                        autocomplete="on" required>
+                </div>
+                <div>
+
+                    <label for="Sexo">Sexo: </label>
+                    <input type="radio" name="genero" value="h" required>Hombre
+                    <input type="radio" name="genero" value="m " required>Mujer
+                </div>
+                <div class="fecha-nac">
+                    <label for="fecha-nac">Años de Nacimiento: </label>
+                    <input type="date" name="nacido" min="1950" placeholder="Año de nacimiento" required>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <input type="submit" value="Registrarse" class="button">
                     </div>
-                    <div class="input-contenedor">
-                        <i class="far fa-envelope icon"></i>
-                        <input type="text" placeholder="Correo Electronico">
+                    <div class="col-md-4">
+                        <input type="text">
                     </div>
-                    <div class="input-contenedor">
-                        <i class="fas fa-lock icon"></i>
-                        <input type="password" placeholder="Contraseña">
+                    <div class="col-md-4">
+                        <input type="text">
                     </div>
-                    <input type="submit" value="Registrate" class="button">
-                    <p>Al registrarte, aceptas nuestras Condiciones de uso y Política de privacidad.</p>
-                    <p>¿Ya tienes una Cuenta?<a class="link" href="Iniciar Sesion.html">Iniciar Sesion</a></p>
                 </div>
             </form>
         </nav>
