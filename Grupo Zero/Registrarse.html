@@ -13,53 +13,60 @@
 <body>
     <header>
         <nav>
-            <form action="form-group">
-                <h1>Registrate</h1>
-                <a href="index.html">Inicio</a>
-                <div class="input-contenedor">
-                    <i class="nombre-registro"></i>
-                    <label for="nombre">Nombre:</label>
-                    <input name="nombre" type="text" id="nombre" placeholder="Ingrese sus Nombre">
-                </div>
+            <div class="container">
                 <div>
-                    <label for="Apellidos">Apellidos:</label>
-                    <input name="apellidos" type="text" id="apellido" placeholder="Ingrese sus Apellidos">
+                    <h1>Registrate</h1>
+                    <a href="index.html">Inicio</a>
                 </div>
+                <form action="form-group">
+                    <div class="col-md-3"></div>
+                    <div class="col-md-6">
+                        <i class="nombre-registro"></i>
+                        <label for="nombre">Nombre:</label>
+                        <input name="nombre" type="text" id="nombre" placeholder="Ingrese sus Nombre">
+                    
+                        <div>
+                            <label for="Apellidos">Apellidos:</label>
+                            <input name="apellidos" type="text" id="apellido" placeholder="Ingrese sus Apellidos">
+                        </div>
 
-                <div class="input-contenedor">
-                    <i class="far fa-envelope icon"></i>
-                    <label for="email">Email: </label>
-                    <input name="email" type="text" value="" placeholder="nombre@email.com" autocomplete="on"
-                        required>
-                </div>
-                <div class="input-contenedor">
-                    <i class="fas fa-lock icon"></i>
-                    <label for="contraseña">Contraseña: </label>
-                    <input name="contraseña" type="password" value="" placeholder="Ingrese su Contraseña" size="30"
-                        autocomplete="on" required>
-                </div>
-                <div>
+                        <div class="input-contenedor">
+                            <i class="far fa-envelope icon"></i>
+                            <label for="email">Email: </label>
+                            <input name="email" type="text" value="" placeholder="nombre@email.com" autocomplete="on"
+                                required>
+                        </div>
+                        <div class="input-contenedor">
+                            <i class="fas fa-lock icon"></i>
+                            <label for="contraseña">Contraseña: </label>
+                            <input name="contraseña" type="password" value="" placeholder="Ingrese su Contraseña" size="30"
+                                autocomplete="on" required>
+                        </div>
+                        <div>
 
-                    <label for="Sexo">Sexo: </label>
-                    <input type="radio" name="genero" value="h" required>Hombre
-                    <input type="radio" name="genero" value="m " required>Mujer
-                </div>
-                <div class="fecha-nac">
-                    <label for="fecha-nac">Años de Nacimiento: </label>
-                    <input type="date" name="nacido" min="1950" placeholder="Año de nacimiento" required>
-                </div>
-                <div class="row">
-                    <div class="col-md-4">
-                        <input type="submit" value="Registrarse" class="button">
+                            <label for="Sexo">Sexo: </label>
+                            <input type="radio" name="genero" value="h" required>Hombre
+                            <input type="radio" name="genero" value="m " required>Mujer
+                        </div>
+                        <div class="fecha-nac">
+                            <label for="fecha-nac">Años de Nacimiento: </label>
+                            <input type="date" name="nacido" min="1950" placeholder="Año de nacimiento" required>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <input type="submit" value="Registrarse" class="button">
+                            </div>
+                            <div class="col-md-4">
+                                <input type="reset" value="Borrar" class="button">
+                            </div>
+                            <div class="col-md-4">
+                                <input type="reset" value="Cancelar" class="button">
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-md-4">
-                        <input type="text">
-                    </div>
-                    <div class="col-md-4">
-                        <input type="text">
-                    </div>
-                </div>
-            </form>
+                    <div class="col-md-3"></div>
+                </form>
+            </div>
         </nav>
     </header>
     <main>
