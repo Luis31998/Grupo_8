@@ -65,3 +65,16 @@ $(document).ready(function () {
 
 });
 
+function FormularioEnviado(){
+    alert("Formulario Enviado")
+
+
+
+};
+
+
+    
+function DatosBorrados(){
+    alert("Datos Borrados")
+    
+};
