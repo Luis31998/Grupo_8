@@ -46,7 +46,7 @@ $(document).ready(function () {
 
     $("#email-reg").blur(function () {
 
-
+        //VALIDACIÓN//
         if ($("#email-reg").val().length < 8) {
             $("#error-email").html("El e-mail esta vacio")
             $("#error-email").fadeIn()
