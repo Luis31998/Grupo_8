@@ -31,3 +31,8 @@ $(document).ready(function () {
     });
 
 });
+
+function SesionIniciada(){
+    alert("La sesion ha sido iniciada Correctamente")
+
+};
