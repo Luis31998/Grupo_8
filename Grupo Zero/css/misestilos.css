@@ -69,16 +69,16 @@ p{
 
     .carousel-control-prev{
     padding-left: 150px;
-  }
-  .carousel-control-next{
-      padding-right: 150px;
-  }
+    }
+.carousel-control-next{
+    padding-right: 150px;
+    }
 
-  .error{
+.error{
     color:#F00;
 }
 
-  .error1{
+.error1{
     color:#F00;
 }
 
