@@ -67,7 +67,7 @@ $(document).ready(function () {
         var pass = $("#cont-reg").val()
 
         if (pass.length < 8) {
-            $("#error3").html("Contraseña debe tener 8 caracteres")
+            $("#cont-error").html("Contraseña debe tener 8 caracteres")
             event.preventDefault()
         }
 
