@@ -90,3 +90,16 @@ $(document).ready(function () {
 
 });
 
+function RegistroEnviado(){
+    alert("Registro Enviado")
+
+
+
+};
+
+
+    
+function DatosBorrados(){
+    alert("Datos Borrados")
+    
+};
