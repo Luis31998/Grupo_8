@@ -73,6 +73,20 @@ $(document).ready(function () {
 
     });
 
+    //
 
-    });
+    $.getJSON(
+        'https://apis.digital.gob.cl/dpa/regiones/05/comunas', //URL API
+        function (data) {  //QUE HACER CON LOS DATOS
+            //Cargar monedas al combobox
+            $.each(data, function (i, item) {
+                $("#comunas").append(
+                    '<option value="' + item.codigo + '">' + item.nombre + '</option>'
+                );
+            })
+        }
+    );
+
+
+});
 
