@@ -8,6 +8,9 @@
     <title>Registro</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/misestilos.css">
+    
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="js/script.js"></script>
 </head>
 
 <body>
@@ -19,35 +22,38 @@
                     <a href="index.html">Inicio</a>
                 </div>
                 <hr>
-                <form action="form-group">
+                <form action="" id="form-reg">
                     <div class="col-md-3"></div>
                     <div class="col-md-6">
                         <i class="nombre-registro"></i>
                         <label for="nombre">Nombre:</label>
                         <input name="nombre" type="text" id="nombre" placeholder="Ingrese sus Nombre">
-                    
+                        <span id="error-nom1" class="error"></span>
+
                         <div>
                             <label for="Apellidos">Apellidos:</label>
-                            <input name="apellidos" type="text" id="apellido" placeholder="Ingrese sus Apellidos">
+                            <input name="apellido" type="text" id="apellido" placeholder="Ingrese sus Apellidos">
+                            <span id="error-ap1" class="error1"></span>
                         </div>
 
                         <div class="input-contenedor">
                             <i class="far fa-envelope icon"></i>
                             <label for="email">Email: </label>
-                            <input name="email" type="text" value="" placeholder="nombre@email.com" autocomplete="on"
-                                required>
+                            <input name="email" type="text" value="" id="email-reg" placeholder="nombre@email.com" autocomplete="on" required>
+                            <span id="error-email" class="error2"></span>
                         </div>
                         <div class="input-contenedor">
                             <i class="fas fa-lock icon"></i>
                             <label for="contraseña">Contraseña: </label>
-                            <input name="contraseña" type="password" value="" placeholder="Ingrese su Contraseña" size="30"
-                                autocomplete="on" required>
+                            <input name="contraseña" type="password" value="" id="contreseña" placeholder="Ingrese su Contraseña" size="30">
+                            <span id="cont-error" class="error3"></span>
                         </div>
                         <div>
 
                             <label for="Sexo">Sexo: </label>
-                            <input type="radio" name="genero" value="h" required>Hombre
-                            <input type="radio" name="genero" value="m " required>Mujer
+                            <input type="radio" name="genero" value="h" id="sex-hom" required> Hombre
+                            <input type="radio" name="genero" value="m " id="sex-muj" required> Mujer
+                            <span id="sex-error" class="error4"></span>
                         </div>
                         <div class="fecha-nac">
                             <label for="fecha-nac">Años de Nacimiento: </label>
