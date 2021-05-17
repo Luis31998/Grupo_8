@@ -26,6 +26,19 @@ $(document).ready(function () {
 
     });
 
-
-
 });
+
+
+function ObraAgregada(){
+    alert("Obra Agregada")
+
+
+
+};
+
+
+    
+function ObraEliminada(){
+    alert("Obra Eliminada")
+    
+};
