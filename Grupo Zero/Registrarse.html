@@ -27,12 +27,12 @@
                     <div class="col-md-6">
                         <i class="nombre-registro"></i>
                         <label for="nombre">Nombre:</label>
-                        <input name="nombre" type="text" id="nombre" placeholder="Ingrese sus Nombre">
+                        <input name="nombre" type="text" id="nombre" placeholder="Ingrese sus Nombre" required>
                         <span id="error-nom1" class="error"></span>
 
                         <div>
                             <label for="Apellidos">Apellidos:</label>
-                            <input name="apellido" type="text" id="apellido" placeholder="Ingrese sus Apellidos">
+                            <input name="apellido" type="text" id="apellido" placeholder="Ingrese sus Apellidos" required>
                             <span id="error-ap1" class="error1"></span>
                         </div>
 
@@ -45,13 +45,13 @@
                         <div class="input-contenedor">
                             <i class="fas fa-lock icon"></i>
                             <label for="cont-reg">Contraseña: </label>
-                            <input name="contraseña" type="password" value="" id="cont-reg" placeholder="Ingrese su Contraseña" size="30">
+                            <input name="contraseña" type="password" value="" id="cont-reg" placeholder="Ingrese su Contraseña" size="30" required>
                             <span id="cont-error" class="error3"></span>
                         </div>
                         <br>
                         <div>
                             <label for="comunas">Comuna de residencia: </label>
-                            <select name="comunas" required id="comunas">
+                            <select name="comunas" required id="comunas" required>
                                 <option value="0">Selecciona comuna</option>
                             </select>
                         </div>
